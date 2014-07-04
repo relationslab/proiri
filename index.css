@@ -1,0 +1,62 @@
+body#index{
+	position: absolute;
+	top: 0px; 
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+div{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+div#all{
+	position: absolute;
+	top: 0px; 
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+div#header{
+	position: absolute;
+	top: 0px; 
+	left: 0px;
+	width: 100%;
+	height: 36px;
+	background-color: #cccccc;
+}
+
+div#main{
+	position: absolute;
+	top: 36px; 
+	left: 0px;
+	width: 100%;
+	height: 779px;
+}
+
+div#tree{
+	position: absolute;
+	top: 0px; 
+	left: 0px;
+	width: 160px;
+	height: 100%;
+	background-color: #ccffff;
+}
+
+iframe#contents{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	top: 0px; 
+	left: 160px;
+	width: 1192px;
+	height: 779px;
+	background-color: #ffccff;
+}

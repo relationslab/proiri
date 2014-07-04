@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>エディタ</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+	<script src="codemirror/lib/codemirror.js"></script>
+	<link rel="stylesheet" href="codemirror/lib/codemirror.css">
+	<link rel="stylesheet" href="contents.css">
+	<script src="codemirror/mode/javascript/javascript.js"></script>	
+</head>
+
+<body id="contents">
+	<div id="live-preview">
+		<iframe id="live-preview-frame" src="blank.html"></iframe>
+	</div>
+	<div id="editor">
+		<textarea id="code" name="code">//ここにソースコードを記述</textarea>
+	</div>
+	<script src="js/main.js"></script>
+	<script src="./js/jquery.js"></script>
+</body>
+
+</html>
